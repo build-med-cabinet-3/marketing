@@ -1,7 +1,7 @@
 .btn {
   cursor: pointer;
   position: relative;
-  padding: 10px 20px;
+  padding: 10px 10px;
   background: white;
   font-size: 28px;
   border-top-right-radius: 10px;
@@ -42,6 +42,8 @@
   .btn {
     display: flex;
     justify-content: center;
+    padding: 5px 10px;
+    font-size: 10px;
   }
 }
 /* http://meyerweb.com/eric/tools/css/reset/ 
@@ -209,7 +211,7 @@ p {
 }
 @media (max-width: 500px) {
   .container {
-    margin-top: 500px;
+    margin-top: 300px;
   }
 }
 .navigation {
@@ -233,7 +235,7 @@ p {
 }
 @media (max-width: 500px) {
   .navigation {
-    height: 380px;
+    height: 300px;
   }
 }
 .navigation h1 {
@@ -243,7 +245,7 @@ p {
 }
 @media (max-width: 500px) {
   .navigation h1 {
-    font-size: 4rem;
+    font-size: 3rem;
   }
 }
 .navigation nav {
@@ -296,6 +298,7 @@ footer {
 .home .space-images {
   display: flex;
   margin: 10px;
+  padding: 5px;
   width: 99%;
   justify-content: center;
 }
@@ -304,11 +307,13 @@ footer {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    margin: 3px;
   }
 }
 .home .space-images img {
   border-radius: 20px;
   width: 95%;
+  padding: 5px;
 }
 @media (max-width: 500px) {
   .home .space-images img {
